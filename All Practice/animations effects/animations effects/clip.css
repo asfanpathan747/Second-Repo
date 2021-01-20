@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background: black;
+}
+
+.main{
+    margin-top:3rem;
+    border:2px solid white;
+    padding:3rem;
+}
+img{
+    width:28rem;
+    height:28rem;
+    clip-path:circle(50% at 50% 50%);
+    shape-outside:circle(50% at 50% 50%);
+    /* margin:2rem 2rem; */
+    float: left;
+    transition: all 2s linear;
+}
+img:hover{
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    shape-margin: 30px;    
+}
+p{
+    color:white;
+    
+    
+}

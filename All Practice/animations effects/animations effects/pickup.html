@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pickup.css">
+    <style>
+        .font-effect{
+            width:100vw;
+            height:100vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul li{
+             color:white;
+             display: inline-block;
+             list-style: none;
+             text-transform: uppercase;
+             font-size:45px;
+             text-shadow: 2px 2px 4px rgb(36, 80, 221);
+             transition:all 1s ease-out 0.1s;
+        }
+        ul:hover li{
+             transform: scale(2) translateY(-360deg) ;
+             
+             margin-left:20px;            
+        }
+        ul li:nth-child(1){
+            transition-delay: 0.4s;
+            color:navy;
+        }
+        ul li:nth-child(2){
+            transition-delay: 0.8s;
+            color:navy;
+        }
+        ul li:nth-child(3){
+            transition-delay: 1.2s;
+            color:navy;
+        }
+        ul li:nth-child(4){
+            transition-delay: 1.4s;
+            color:navy;
+        }
+        ul li:nth-child(5){
+            transition-delay: 1.6s;
+            color:navy;
+        }
+        ul li:nth-child(6){
+            transition-delay: 2s;
+            color:navy;
+        }
+        ul li:nth-child(7){
+            transition-delay: 2.2s;
+            color:orangered;
+        }
+        ul li:nth-child(8){
+            transition-delay: 2.4s;
+            color:orangered;
+        }
+        ul li:nth-child(9){
+            transition-delay: 2.6s;
+            color:orangered;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="font-effect">
+        <ul>
+            <li>p</li>
+            <li>i</li>
+            <li>c</li>
+            <li>k</li>
+            <li>u</li>
+            <li>p</li>
+            <li>b</li>
+            <li>i</li>
+            <li>z</li>
+            
+        </ul>
+    </div>
+    <!-- <div class="stick"></div> -->
+    
+</body>
+</html>

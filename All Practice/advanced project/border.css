@@ -1,0 +1,10 @@
+.border{
+    width:500px;
+    height:300px;
+    background:orangered;
+    border-image-source: url(./url/blue\ border.png);
+    border-image-slice:28px;
+    border-image-repeat: round;
+    margin-left:400px;
+    margin-top: 200px;
+}

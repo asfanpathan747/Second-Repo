@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        body{
+            background-color:silver;
+        }
+        .main-container{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            text-align:center;
+            margin: 40px;
+            display:flex;
+            justify-content: center;
+            align-content: center;
+            width:6rem;
+            height:2rem;
+            line-height: 25px;
+            background:linear-gradient(silver,hotpink,white);
+            color:black;
+            border-radius: 10px;
+            outline: none;
+            box-shadow:2px 2px 3px black,inset 2px 2px 3px black;
+            font-style: italic;
+            font-size:0.9rem  ;
+
+        }
+        button:hover{
+            background-color:gold;
+            box-shadow: 2px 2px 3px gold;
+        }
+        .photos{
+            text-align:center;
+            display: grid;
+            justify-content: center;
+
+        }
+      .bulb{
+        text-align:center;
+            display: grid;
+            justify-content: center;
+            margin-top: 3rem;
+             
+      }
+      form{
+        display: grid;
+            justify-content: center;
+      }
+      .moon-sun{
+        background: black;
+        height:auto;
+        display: grid;
+        justify-content: center;
+        box-sizing: border-box;
+        position:relative;
+      }
+      .moon-sun img{
+        width:200px;
+        height:200px;
+        
+      }
+      
+     
+    </style>
+    
+</head>
+<body>
+    <div class="main-container">
+    <button onclick="alert('hello everyone.')">click me</button>
+
+    <button ondblclick="alert('dbl click here')">double click</button>
+
+    <button oncontextmenu="alert('right click')">right click</button>
+
+    <button onmouseover="alert('mouse hover alert')">onmousehover</button>
+
+    <button onmouseout="alert('mouse out alert')">onmouseout</button>
+
+    <button onmousedown="alert('on mouse down alert')">onmousedown</button>
+
+    <button onmouseup="alert('on mouse up alert')">on mouse up</button>
+   </div><br>
+
+   <div class="bulb">
+   <button onclick="document.getElementById('myimg').src='./light/pic_bulboff.gif'">light off</button>
+   <img id="myimg" src="./light/pic_bulboff.gif" >
+   <button onclick="document.getElementById('myimg').src='./light/pic_bulbon.gif'">on light</button>
+
+</div>
+
+
+   <h1 id="myh1"></h1>
+   <button onclick="document.getElementById('myh1').innerHTML='hello world'">clik me to new heading</button><br>
+
+
+   <div class="photos">
+       <button onclick="document.getElementById('sec').src='./light/light.jpg'">bydefault</button>
+       <img id="sec" src="./light/light.jpg">
+       <button onclick="document.getElementById('sec').src='./light/download.jpg'">add new</button>
+   </div>
+
+<!-- sun and moon code start here -->
+<div class="moon-sun">
+  <button type="button" onclick="document.getElementById('soom').src='./light/venus.jpg'">venus</button>
+<button type="button" onclick="document.getElementById('soom').src='./light/sun.jpg'">sun</button>
+<img id="soom" src="./light/sun.jpg">
+<button type="button" onclick="document.getElementById('soom').src='./light/moon.jpg' ">moon</button>
+<button type="button" onclick="document.getElementById('soom').src='./light/mercury2.jpg'">marcury</button>
+
+
+</div>
+<!-- sun and moon code end here -->
+
+
+
+
+   <p id="lorems">lorem40</p>
+   <button onclick="document.getElementById('lorems').innerHTML='this is dummy lorems paragraph'">big p</button>
+  
+  
+   <button type="button" class="btn" style="background-color:yellow;">Basic</button>
+   <button type="button" class="btn btn-primary">Primary</button>
+   <button type="button" class="btn btn-secondary">Secondary</button>
+   <button type="button" class="btn btn-success">Success</button>
+   <button type="button" class="btn btn-info">Info</button>
+   <button type="button" class="btn btn-warning">Warning</button>
+   <button type="button" class="btn btn-danger">Danger</button>
+   <button type="button" class="btn btn-dark">Dark</button>
+   <button type="button" class="btn btn-light">Light</button>
+   <button type="button" class="btn btn-link">Link</button>  <br>
+
+   <div class="btn-group">
+    <button type="button" class="btn btn-primary">login</button>
+    <button type="button" class="btn btn-primary">submit</button>
+    <button type="button" class="btn btn-primary">back</button>
+   </div>
+
+   <div class="progress">
+       <div class="progress-bar" style="width:50%; background-color:green";></div>
+   </div><br>
+
+   <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="width:150px;">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu">
+        <div class="dropdown-header">others links</div>
+
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </div><br>
+
+
+
+  <!-- button form code start here -->
+  <div id="form">
+<form>
+  <label for="">name</label>  <input type="text" ><br>
+  <label for="">email</label>  <input type="text" placeholder="email" ><br>
+  <label for="">password</label>  <input type="text" placeholder="password" ><br>
+
+
+</form>
+  </div>
+  <button type="button" class="btn btn-primary" onclick="document.getElementById('form').style.backgroundImage='linear-gradient(yellow,green,pink)';">click me to create form</button>
+  <!-- button form code end here -->
+  <script>
+    
+   
+    
+
+       
+    //  var a=1;
+    //  document.write("<ol>");
+    //  while(a <= 10){
+    //      document.write("<li>hello world</li> <br>");
+    //      a = a + 1;
+    //  }
+    //  document.write("</ol>");
+    //  document.write("<br>");
+
+    //  while loop code start here
+
+    // DO/WHILE loop code start here
+    // var t= 1;
+    // do{
+    //     document.write("this is do/while loop<br>");
+    //     t = t + 1;
+    // }while(t <= 10);
+    
+
+    // odd numbers code start here
+    // for(var ht= 1; ht <= 10; ht++){
+    //     if(ht % 2 !=0){
+    //       document.write(ht + "<br>");
+    //     }
+    // }
+ 
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,476 @@
+
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+.row{
+     display: flex;
+     justify-content: space-between; 
+}
+aside{
+      width:50px;
+      padding-left:150px;
+      margin-left:150px;
+
+}
+h3{
+  margin-right:400px;
+
+}
+.mycss{
+      border:3px solid red;     
+      outline:3px dashed green;
+       outline-offset:2px;
+     padding:20px;
+      margin-right:70px;
+      
+}
+.cssclass{
+          border:3px solid red;
+          
+         
+}
+#cssnew{
+        width:400px;
+        height:150px;
+        border:3px solid black;
+        overflow-x:scroll;
+
+}
+#secondidcss{
+             width:250px;
+            border:20px solid red;
+            padding:50px;
+           box-sizing:border-box;
+}
+#thirdidcss{
+           width:150px;
+           height:150px;
+           border:3px solid green;
+           padding:70px;
+           border-radius:50%;
+           margin:10px 20px 30px 20px;
+           background-color:pink;
+           font-size:20px;
+           box-shadow:2px 4px 12px 16px orange,4px 8px 12px 20px green,12px 8px 16px 20px red,13px 9px 19px 16px blue;
+          /* border-top-left-radius:10px;
+           border-top-right-radius:20px;
+           border-bottom-right-radius:30px;
+           border-bottom-left-radius:40px;*/
+
+}
+#floatcss{
+          border:3px solid red;
+          width:500px;
+          float:left;
+          margin-right:10px;
+          clear:both;
+          margin-bottom:20px;
+}
+
+#floatcss2{
+           border:3px solid green;
+           width:500px;
+          float:left;
+          
+}
+.fontpr{
+       width:400px;
+       border:3px solid black;
+       min-width:400px;
+       min-height:400px;
+       clear:both;
+       padding:40px;
+       text-align:left;
+       text-align-last:auto;
+       text-transform:capitalize;
+       text-indent:100px;
+       word-spacing:10px;
+       letter-spacing:10px;
+       font-family:helvetica;
+       font-style:italic;
+}
+.mydecoration{
+              font-size:23px;
+              text-decoration-line:line-through;
+              text-decoration-color:red;
+              text-decoration-style:solid;
+}
+.shadow{
+        text-shadow:2px 2px  red, 6px 6px  green;
+}
+.shadow2{
+         color:white;
+         text-shadow:4px 4px 6px red,8px 8px 7px black,12px 12px 9px hotpink;
+         background-color:blue;
+
+}
+#wordbr{
+        width:300px;
+        border:3px solid red;
+        word-wrap:break-word;
+        word-break:break-all;0        
+}
+#ccount{
+       border:0px solid black;
+       column-count:3;
+       column-gap:30px;
+       column-rule:6px dashed black;
+       word-wrap:break-word;
+       word-break:break-all;
+       
+}
+h2{
+   column-span:all;
+}
+
+</style>
+
+<tittle>first project.html</tittle>
+</head>
+<body>
+<h1 style="font-size:70px; background-color:pink;text-shadow:4px 4px green;"><center><sup style="font-size:14px;color:green">welcome to</sup><span style="color:green";>pick</span><span style="color:red">upbiz</span>
+  </center></h1><hr size="7px"color="red">
+<h1 style="background-color:#f5f5f5">welcome to <abbr title="pickupbiz">PKb</abbr></h1>
+
+<!--anchor tag coding is here-->
+<div style="font-size:35px; border:3px ridge green; width:650px; background-color:pink; padding:10px;border-radius:7px;padding:25px;box-shadow:5px 5px green,7px 7px red">
+<nav>
+<a href="" style="border:1px solid red;border-radius:4px;padding:4px;box-shadow:4px 4px hotpink,7px 7px hotpink"><i>home</i></a> |
+<a href="courses.html"style="margin-left:30px;border:1px solid red;border-radius:4px;padding:4px;box-shadow:4px 4px hotpink,7px 7px hotpink"><i>courses</i></a> |
+<a href=""style="margin-left:30px;border:1px solid red;border-radius:4px;padding:4px;box-shadow:4px 4px hotpink,7px 7px hotpink"><i>contact us</i></a> |
+<a href=""style="margin-left:30px;border:1px solid red;border-radius:4px;padding:4px;box-shadow:4px 4px hotpink,7px 7px hotpink"><i>about</i></a> 
+</nav>
+</div><br>
+
+
+<!--input fields start here-->
+<!--<div class="row" style="margin-left:650px;">-->
+
+<div style="border:4px solid gray; padding:2px;background-color:pink;border-radius:9px"><br>
+<form id="myform" action="thanks.html">
+<fieldset>
+<legend>prosnal info</legend>
+<stronge>FULL NAME</stronge> :<input type="text" name="name"autofocus; required><br><br>
+<stronge>PASSWARD</stronge> :<input type="passward" name="passward"readonly value="only read for passward"><br><br>
+<stronge>URDU</stronge><input type="checkbox" name="language"checked>
+<stronge>ENGLISH</stronge><input type="checkbox" name="language">
+<stronge>MARATHI</stronge><input type="checkbox" name="language">
+</fieldset><br><br>
+
+<fieldset>
+<legend>email and date info</legend>
+<stronge>EMAIL</strpnge><input type="email" name="email"><br><br>
+<stronge>DATE</strpnge><input type="date"><br><br>
+</fieldset><br><br>
+<fieldset>
+<legend>gender info</legend>
+<input type="radio" name="gender"><stronge>MALE</stronge>
+<input type="radio" name="gender"><stronge>FEMALE</stronge>
+<input type="radio" name="gender"><stronge>OTHERS</stronge><br><br>
+</fieldset><br>
+<input type="SUBMIT" value="SUBMIT" style="width:100px; height:30px;background-color:pink;border-radius:7px"><br><br>
+<input type="file"multiple><br><br>
+</form>
+</div><br><br>
+
+<!--article coding is here-->
+<article style="width:350px;border:4px solid red">
+<h2>this is hands image and article</h2>
+<image src="C:\Users\MY-PC\Desktop/sujok therapy.jpg">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
+been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
+galley of type and scrambled it to make a type specimen book. It has survived not only five
+ centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+passages, and more recently with desktop publishing software like Aldus PageMaker including 
+versions of Lorem Ipsum.
+</p>
+<time>4/nov/2020 2:30pm</time>
+<address>peer burhan nagar
+nanded-431605
+</address>
+</article>
+<br>
+
+
+<div style="border:4px solid blue;width:300px">
+<!--button section is here-->
+<input type="name" placeholder="name">
+<button type="reset" name="reset"accesskey="r">reset</button><br><br>
+
+<input type="email" placeholder="email">
+<button type="submit"disabled>submit</button><br><br>
+<button type="button" name="useles"onclick="alert('i am useles.')">button</button>
+
+<!--blockquote section here-->
+
+<blockquote cite="https://www.aplustopper.com/paragraph-on-trees/"></blockquote>
+<h2>Paragraph On Trees:</h2>
+<p> In-plant science, a tree is a lasting plant with a lengthened stem, a trunk, branches,
+ and also leaves in many species. In certain areas, the meaning of a tree might tend to be 
+smaller, incorporating just woody plants having auxiliary development. These plants are used
+ as timber or plants over a predetermined stature. In more extensive definitions, the taller
+ palms, tree greeneries, bananas, and bamboos are likewise trees.</p>
+
+<!--bdo tag section is here-->
+<bdo dir="rtl">pickupbiz.com</bdo><br><br>
+</div>
+
+<div style="border:3px solid red; border-radius:4px; padding:4px">
+<a href="https://www.youtube.com/watch?v=6zH9F9Cu3BA">click here to play online video</a><br>
+</div><br>
+<a href="https://www.google.com/search?q=wallpaper+sunrise&sxsrf=ALeKk016_ybL0X30020d4LFfYuQT2qnvug:1604657681825&tbm=isch&source=iu&ictx=1&fir=WwVtW1eaGwh7zM%252CTfQSCYMes0dupM%252C_&vet=1&usg=AI4_-kSDkw7eMAzauxKyGZ7ryB2wShk81A&sa=X&ved=2ahUKEwjquPHY1-3sAhVd_
+XMBHSuaAkQQ9QF6BAgKEFg&biw=1517&bih=730#imgrc=WwVtW1eaGwh7zM">click here to see online image</a><br><br>
+<a href="https://gaana.com/playlist/avinashsingh667-bestaudiosongs">click here to play online audio</a>
+<br><br>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+
+<!--dialog tag coding start here-->
+<dialog open style="background-color:yellow; border-radius:5px;">welcom</dialog><br><br>
+<p>asfan khan pathan is learning html</p><br>
+<!--dialog tag coding end here-->
+
+<!--del tag coding start here-->
+<p>i am going to <del cite="delhi is very far to maharshtra ">delhi</del> <ins>mumbai</ins></p>
+<!--del tag coding end here-->
+
+<!--details tag coding satrt here-->
+<details>
+<summary>computer</summary>
+<p style="width:350px;">Lorem ipsum dolor sit amet, natum magna patrioque ad his, est alterum philosophia ea. Tacimates
+ postulant conceptam an has, prompta nostrud ne mel. Eum ex alii wisi quaestio, legendos senserit 
+gubergren ea sit, in nec mazim constituam instructior. Mel no liber delectus, zril dolore ad mei, 
+et duo vivendo neglegentur. Modo omittantur eu pri, aeque clita ex nec, vulputate intellegam ei vim.
+ Ei dico enim mel, duis vulputate mea an. No homero tincidunt quo.</p>
+</details>
+<!--details tag coding end here-->
+
+<!--<dfn> tag coding start here-->
+<h3><dfn title="pickupbiz">pkb<dfn> is best web site in nanded</h3>
+<!--<dfn> tag coding end here-->
+
+<!--datalist tag coding start here-->
+<input list="city" placeholder="select city">
+<datalist id="city">
+    <option value="mumbai">
+    <option value="delhi">
+    <option value="goa">
+</datalist>
+<input type="submit"><br><br>
+<!--datalist tag coding end here-->
+
+<!--table in caption tag and col tag coding start here-->
+<table border="2px" cellpadding="15px">
+<caption>cpmputers</caption>
+<colgroup>
+  <col span="1" style="background-color:red;">
+  <col span="1" style="background-color:yellow;">
+  <col span="1" style="background-color:green;">
+</colgroup>
+<tr>
+<td>name</td>
+<td>ram</td>
+<td>stroge</td>
+</tr>
+<tr>
+<td>dell</td>
+<td>12</td>
+<td>180GB</td>
+</tr>
+<tr>
+<td>HP</td>
+<td>6</td>
+<td>280GB</td>
+</tr>
+<tr>
+<td>ASUS</td>
+<td>8</td>
+<td>320GB</td>
+</tr>
+<tr>
+<td>i pad</td>
+<td>12</td>
+<td>258GB</td>
+</tr>
+</table>
+<!--table in caption tag and col tag coding end here-->
+
+
+select range<input type="range" name="range"form="myform"><br><br>
+
+url<input type="url" name="website url"><br><br>
+colors<input type="color" name="choose color"><br><br>
+search<input type="search" name="search option"maxlength="6"><br><br>
+
+<!--<select>,<option>,<optgroup> coding is start here-->
+<select>
+<optgroup label="dell laptop">
+<option>dell laptop13</option>
+<option>dell laptop15</option>
+<option>dell laptop17</option>
+</optgroup>
+
+<optgroup label="hp laptop">
+<option>hp laptop13</option>
+<option>hp laptop13</option>
+<option>hp laptop13</option>
+</optgroup>
+</select><br><br>
+<!--select tag coding is end here-->
+
+
+<!--meter tag codingb start here-->
+tempreture<meter low="30" high="70" min="0" max="100" value="80" optimum="50" >75c</meter><br><br>
+downloading proccess<progress value="35" max="100"></progress><br><br>
+
+<h1><mark>pink</mark>web.com</h1><br>
+<form>
+<label for="male">male</label>
+<input type="radio" name="gender" id="male"><br>
+<label for="female">female</label>
+<input type="radio" name="gender" id="female"><br>
+</form><br>
+
+
+<!--pre tag coding start here-->
+<pre>
+                  {start here
+                  (_tdspck
+gjghku
+kgkghg
+jhgjhgjhg
+kugjgjyt
+kuuyuy)                                     }
+</pre><br>
+<!--pre tag coding end here-->
+
+<!--ruby tag coding start here-->
+pickupbiz is new web site in google please check out this this web site 
+<ruby>
+<rb>pkw</rb>
+<rt>pinkweb.com is web site in google</rt>
+</ruby> is best site in nanded
+<!--ruby tag coding end here--><br>
+
+<!sub and sup tag coding is here-->
+<h1>my class is 12<sup>th</sup></h1>
+<h1>H<sub>2</sub>O is science chemical name</h1><br>
+
+<!--new table coding start here-->
+<table border="2px" style="border-spacing:0px">
+<tr>
+<th>s.no</th>
+<th>item</th>
+<th>rate</th>
+</tr>
+<tr>
+<td>001</td>
+<td>phone</td>
+<td rowspan="2">6000</td>
+</tr>
+<tr>
+<td>002</td>
+<td>headphone</td>
+
+</tr>
+<tr>
+<td>003</td>
+<td>laptop</td>
+<td>25000</td>
+</tr>
+
+<tr>
+<td colspan="2">grand total</td>
+<td>30000</td>
+</tr>
+<table><br><br><br>
+<!--html course coding end here-->
+
+
+<!--css course coding start here-->
+<h1 style="background-color:yellow;text-align:center;border:4px solid red;outline:4px solid green"><span style="color:red">CSS</span> <span style="color:green">LEARNING</span> <span style="color:blue">PROJECT</span> <span style="color:brown">START</span></h1><br><br>
+
+
+<!--css dummy project coding start here-->
+<h1 class="mycss" style="background-color:#ff1493;color:white;width:100%;">welcome to pinkweb.com<br> pink web is best
+ site in<br> nanded pinkweb are advertisement<br> preduseer web </h1><br>
+
+<h2>min-height,max-height<h2>
+<div class="cssclass">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+ leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+ type and scrambled it to make a type specimen book. It has survived not only five centuries, but athe 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+</div><br><br>
+
+<!--overflow property coding start here-->
+<h1 style="text-align:center">overflow=scroll,visible,auto,hidden</h1>
+<div id="cssnew">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+</div>
+<!--overflow property coding end here--><br><br><br>
+
+<!--box-sizing coding start here-->
+<h1 style="text-align:center">box-sizing css property start</h1>
+<div id="secondidcss">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+</div><br><br><br>
+
+<!--border-radius css property start here-->
+<h1 style="text-align:center">border-radius css property and box-shadow</h1>
+<div id="thirdidcss">
+pickupbiz.com is best site in nanded please try this web to create your web site            
+</div><br><br>
+
+<!--float css property coding start here-->
+<h1>float css property section</h1>
+<div id="floatcss">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</div>
+<div id="floatcss2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</div><br><br>
+
+<!--font-poperties css coding start here-->
+<h1 text-align:center; style="clear:both">css text properties </h1>
+<p class="fontpr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p><br>
+
+<p class="mydecoration">hyper text markup language is best language</p><br>
+<h1 class="shadow">CSS IS CASCADING STYLESHEET</h1>
+<h1 class="shadow2">CSS IS CASCADING STYLESHEET</h1><br>
+
+<!--word-wrap and word-break coding start here-->
+<div id="wordbr">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchangeeeed. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+</div><br>
+
+<!--column count css coding start here-->
+
+<div id="ccount">
+<h2>column count is create a column</h2>
+
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchangeeeed. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsumm Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchangeeeed. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+</div><br>
+
+</body>
+</html>
